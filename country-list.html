@@ -3,7 +3,6 @@
     <input type="text" class="form-control" ng-model="query.name" style="font-size: 20px;" placeholder="Search">
   </div>
 </form>
-
 <div class="col-sm-4">
   <li ng-repeat="country in countries | filter:query | orderBy:'name'">
 
