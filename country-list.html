@@ -1,8 +1,9 @@
-<div style="text-align:center; font-size: 30px">
+<div style="text-align:center; font-size: 30px; color:chocolate">
 Ricerca:<input ng-model="query.name" type="text" style="font-size: 30px"/>
 </div>
-<ul>
+<div>
   <li ng-repeat="country in countries | filter:query | orderBy:'name'">
-    <a href="#/{{country.name}}">{{country.name}}</a>
+
+    <a href="#/{{country.name}}" style="text-align:center; font-size: 30px; ">{{country.name}}</a>
   </li>
-</ul>
+</div>

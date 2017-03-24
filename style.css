@@ -20,10 +20,15 @@
 		h1 .cursive {
   			font-size: 1.5em;
    			line-height:0.5em;
-   			color: #737fc0;
+   			color: #bd9b83;
    			font-family: 'Mr Dafoe', cursive;
    			margin: auto;
     		width: 35%;
     		padding: 10px;
     		text-align: center;
+   		
+		}
+		li{
+			text-align: center;
+			margin-top:20px;
 		}
