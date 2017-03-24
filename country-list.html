@@ -1,7 +1,10 @@
-<div style="text-align:center; font-size: 30px; color:chocolate">
-Ricerca:<input ng-model="query.name" type="text" style="font-size: 30px"/>
-</div>
-<div>
+<form>
+  <div class="col-sm-4">
+    <input type="text" class="form-control" ng-model="query.name" style="font-size: 20px;" placeholder="Search">
+  </div>
+</form>
+
+<div class="col-sm-4">
   <li ng-repeat="country in countries | filter:query | orderBy:'name'">
 
     <a href="#/{{country.name}}" style="text-align:center; font-size: 30px; ">{{country.name}}</a>
