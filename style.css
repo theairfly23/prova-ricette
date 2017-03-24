@@ -1,0 +1,235 @@
+		body {
+			
+			font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+			background: #fbf8f4 url(../images/bg.jpg) repeat top left;
+			font-weight: 100%;
+			font-size: 100%;
+			color: #aa3e03;
+			overflow-y: scroll;
+		}
+		header {
+   			font-size: 1.5em;
+   			font-family: 'Pacifico', cursive;
+   			text-align:center;
+   			float:center;
+   		}
+		span {
+   			display:block;
+   		}
+
+		h1 .cursive {
+  			font-size: 1.5em;
+   			line-height:0.5em;
+   			color: #737fc0;
+   			font-family: 'Mr Dafoe', cursive;
+   			margin: auto;
+    		width: 35%;
+    		padding: 10px;
+    		text-align: center;
+		}
+		
+		#contenitore{
+    		margin-bottom: 20px;
+  			padding-bottom: 50px;
+  			text-align: center;
+		}
+ 
+		#contenitore video{
+    		display:inline-block;
+    		vertical-align:middle;
+    		padding-top: 30px;
+		}
+		.container-full {
+  			margin: 0 auto;
+  			width: 100%;
+		}
+		#menu {
+			margin-left: 0;
+ 			padding: 5px 0 5px 10px;
+			list-style: none;
+			text-align: center;
+		}
+	
+
+		#menu ul {
+			padding: 0;
+			margin: 0;
+		}
+
+		#menu li {
+			display: inline-block;
+ 			padding-right: 15px;
+ 			zoom: 1;
+ 			*display: inline;
+ 			
+		}
+
+		#menu li a {
+			background-color: ;
+			color: #000000;
+			padding: 15px 20px;
+			text-decoration: none;
+			display: block;
+			font-family: 'Mr Dafoe', cursive;
+			font-size: 1.5em;
+
+		}
+
+		#menu li a:hover {
+			background-color: #FAEBD7;
+			text-shadow: 0px 0px 1px #FFF;
+			border-radius: 400px;
+			
+		}
+
+		#menu ul ul {
+			position: absolute;
+			top: 48px;
+			visibility: hidden;
+		}
+
+		#menu ul li:hover ul {
+			visibility: visible;
+		}
+
+		#menu ul ul:hover {
+			box-shadow: 0px 20px 30px #7C7C7C;
+		}
+
+		#menu ul ul li a {
+			background-color: #3A3A3A;
+		}
+
+		#menu ul ul li a:hover {
+			background-color: #3F3F3F;
+		}
+
+
+
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.fancybox-buttons img {
+    height: 100px;
+    width:  100px;
+    overflow: hidden;
+    margin: 20px;
+    border: 10px solid white;
+    -webkit-box-shadow: 5px 5px 5px #111;
+    box-shadow: 5px 5px 5px #111;
+    float: left;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.fancybox-buttons img:hover {
+  width: 200px;
+  height: 200px;
+
+}
+
+#foto {
+      width: auto;
+      height: auto;
+      margin: 0px auto;
+    }
+    #foto ul {
+      padding: 0;
+      margin: 0;
+    }
+    #foto li {
+      position: relative;
+      float: left;
+      width: auto;
+      text-align: center;
+      list-style: none;
+    }
+    #foto li a {
+      background-color: ;
+      color: #000000;
+       
+      text-decoration: none;
+      display: block;
+      font-family: 'Mr Dafoe', cursive;
+      font-size: 1.5em;
+    }
+#content {
+			position: relative;
+			height: 0;
+			overflow: hidden;
+        	width:100%;
+       		height: 100%;
+        	text-align:center;
+        	padding-top: 30px;
+		}
+
+	#nameInput {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 300px;
+	}
+	#surnameInput {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 300px;
+	}
+	#messageInput {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 50px;
+	width: 300px;
+	}
+
+	#img_guestbook {
+			position: relative;
+			height: 0;
+			overflow: hidden;
+        	width:100%;
+       		height: 100%;
+        	text-align:center;
+        	padding-top: 20px;
+	}
+
+
