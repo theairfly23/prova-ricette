@@ -1,4 +1,4 @@
-     var countryApp = angular.module('countryApp', ['ngRoute']);
+   var countryApp = angular.module('countryApp', ['ngRoute']);
 
     countryApp.config(function($routeProvider) {
       $routeProvider.
@@ -10,10 +10,13 @@
           templateUrl: 'country-detail.html',
           controller: 'CountryDetailCtrl'
         }).
+        when('/a/new', {
+          templateUrl:'detail.html'
+        }).
         otherwise({
-          redirectTo: '/'
-        });
+      redirectTo:'/'
     });
+});
 
    countryApp.factory('countries', function($http){
       return {
