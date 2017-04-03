@@ -1,13 +1,19 @@
-<form>
-  <div class="col-sm-4">
+<div class="col-md-10 col-md-offset-1" style="text-align: -webkit-center; padding-top: 30px">
+  <div class="panel panel-default">
     
-    <input type="text" class="form-control" ng-model="query.name" style="font-size: 20px;" placeholder="Search">
-    <a href="#/a/new"><i class="icon-plus-sign"></i></a>
+    <div class="panel-heading">
+      
+      <h3 class="panel-title" style="color:#000000; font-size: 35px; font-family: 'Satisfy', cursive;">Elenco Ricette</h3>
+    </div>
+    <div class="panel-body" style="color:#000000; font-family: 'Indie Flower', cursive;">
+      <div>
+      <a href="#/a/new"><i class="icon-plus-sign"></i></a>
+          <h1></h1>
+        <input type="text" ng-model="query.name"  placeholder="Search">
+      </div>  
+        <li ng-repeat="country in countries | filter:query | orderBy:'name'">
+          <a href="#/{{country.name}}" style="text-align:center; font-size: 30px; ">{{country.name}}</a>
+        </li>
+      </div>
+    </div>
   </div>
-</form>
-<div class="col-sm-4">
-  <li ng-repeat="country in countries | filter:query | orderBy:'name'">
-
-    <a href="#/{{country.name}}" style="text-align:center; font-size: 30px; ">{{country.name}}</a>
-  </li>
-</div>
